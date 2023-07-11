@@ -17,6 +17,7 @@ import static org.springframework.util.StringUtils.isEmpty;
 import static study.querydsl.entity.QMember.member;
 import static study.querydsl.entity.QTeam.team;
 
+@Repository
 public class MemberTestRepository extends Querydsl4RepositorySupport {
 
     public MemberTestRepository() {
